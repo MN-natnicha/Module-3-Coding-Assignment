@@ -1,0 +1,58 @@
+/* ---------------------------------- */
+/* CSS สำหรับ styles.css */
+/* ---------------------------------- */
+
+/* การจัดรูปแบบ Navbar Brand */
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.5; /* จัดให้อยู่ตรงกลางมากขึ้น */
+}
+
+/* จัดการให้ Navbar Toggle เป็นสีดำบนมือถือ */
+.navbar-toggle {
+    border: 2px solid #333;
+}
+.navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+/* การจัดรูปแบบเมนูมือถือ (เฉพาะ visible-xs) */
+.mobile-menu-bg {
+    background-color: #f8f8f8; /* สีพื้นหลังอ่อนๆ คล้าย navbar-default */
+    border: 1px solid #e7e7e7; /* ขอบคล้าย navbar-default */
+    margin-top: 1px; /* เพื่อให้ติดกับขอบล่างของ navbar */
+}
+
+/* จัดรูปแบบลิงก์ในเมนูมือถือ */
+#mobile-menu a {
+    padding: 10px 0;
+    border-top: 1px solid #e7e7e7; /* เส้นคั่นระหว่างเมนู */
+    color: #777; /* สีเดียวกับลิงก์ใน navbar */
+}
+#mobile-menu a:hover,
+#mobile-menu a:focus {
+    background-color: #ddd; /* สีพื้นหลังเมื่อโฮเวอร์ */
+    color: #333;
+}
+
+/* จัดการขนาดของ Heading หลัก */
+.container h1 {
+    margin-bottom: 30px;
+}
+
+/* กล่องสำหรับแต่ละ Section (Chicken, Beef, Sushi) */
+.section-box {
+    background-color: #cccccc; /* สีพื้นหลังเทาตามภาพตัวอย่าง */
+    border: 1px solid #333333; /* ขอบเข้ม */
+    margin-bottom: 30px; /* ระยะห่างระหว่างกล่องด้านล่าง */
+    padding: 15px; /* ระยะห่างภายในกล่อง */
+    height: 700px; /* ทำให้กล่องสูงตามที่ระบุใน Assignment requirement */
+    overflow: hidden; /* ซ่อนเนื้อหาที่เกินความสูง */
+}
+
+.section-box h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
